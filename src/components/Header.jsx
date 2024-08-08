@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header className="text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/">
+        <Link href="/" className="w-[100px] md:w-[120px] lg:w-[148px]">
           <Image src={Logo} alt="" />
         </Link>
         <div>

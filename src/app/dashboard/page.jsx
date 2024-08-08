@@ -19,8 +19,8 @@ export default function Dashboard() {
   if (!user) return null;
 
   return (
-    <div className="min-h-[80vh] w-full flex items-center justify-center bg-gray-100">
-      <div className="container mx-auto bg-white p-8 py-16 rounded-lg shadow-md w-full text-center mx-8">
+    <div className="min-h-[80vh] w-full flex items-center justify-center bg-gray-100 px-6">
+      <div className="container mx-auto bg-white p-8 py-16 rounded-lg shadow-md w-full text-center">
         <h1 className="text-2xl font-bold mb-4">Welcome, <span className="capitalize">{user.username}</span>!</h1>
         <p>This is your dashboard.</p>
       </div>
